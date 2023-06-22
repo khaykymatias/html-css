@@ -1,0 +1,138 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+    height: 170px;
+    color: white;
+    background-image: linear-gradient(to top, #195A36, #3CD983);
+}
+h1#headerh1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+p#headerp {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    box-shadow: 0px 4px 5px #00000082;
+    background-color: #195A36;
+}
+nav > a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover {
+    color: rgb(162, 228, 162);
+}
+
+main {
+    border-radius: 0px 0px 15px 15px;
+    width: 800px;
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    margin: auto;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.427);
+}
+
+article > h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    color: #195B37;
+    font-family: 'idroid';
+}
+article > h2 {
+    padding-left: 20px;
+    color: #195B37;
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, #7fdfaa71, white);
+    width: 656px;
+}
+
+p {
+    text-indent: 1.2em;
+    font-size: 17px;
+}
+
+span {
+    font-weight: bold;
+    color: #195B37;
+}
+
+.video {
+    position: relative;
+    background-color: #1A5C38;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -21px;
+    padding-bottom: 59%;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #195A36;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin-top: 30px;
+}
+
+footer > p {
+    padding: 0;
+    margin: 0px;
+}
+
+.mais {
+    height: 390px;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    width: 790px;
+    background-color: #C5EBD6;
+}
+
+.mais > h3 {
+    color: white;
+    padding-left: 10px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #2FA866;
+}
+.mais > p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}

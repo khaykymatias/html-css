@@ -1,0 +1,6 @@
+--cor0: #c5ebd6;
+--cor1: #83E1AD;
+--cor2: #3DDC84;
+--cor3: #2FA866;
+--cor4: #1A5C37;
+--cor5: #063d1e;
