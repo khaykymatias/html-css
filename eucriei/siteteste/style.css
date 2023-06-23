@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: blue;
+    color: white;
+}
+
+nav {
+    background-color: lightblue;
+    height: 30px;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: darkblue;
+    background-color: rgb(92, 92, 139);
+    padding: 0;
+    transition: .5s;
+}
