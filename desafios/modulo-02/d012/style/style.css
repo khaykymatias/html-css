@@ -9,7 +9,7 @@
 
 header {
     background-color: black;
-    height: 263px;
+    height: 42vh;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@ header h1 {
 }
 
 header p {
+    font-size: 1.3em;
     color: white;
     font-family: sans-serif;
 }
@@ -44,23 +45,57 @@ section.img {
 }
 
 section.img > p {
-    width: 541px;
-    padding: 5px;
-    color: white;
     background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    display: block;
+    font-size: 4vw;
+    padding: 5px;
+    width: 47vw;
 }
 
 section p {
-    padding-bottom: 100px;
     font-family: 'Sriracha', cursive;
     font-size: 3.5vw;
     line-height: 2em;
+    padding-bottom: 100px;
 }
 
-#img-1 {
+#img-01 {
     background-attachment: fixed;
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#img-02  {
+    background-attachment: fixed;
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+footer a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
